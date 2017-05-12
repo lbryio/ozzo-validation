@@ -7,7 +7,7 @@ package is
 import (
 	"testing"
 
-	"github.com/go-ozzo/ozzo-validation"
+	"github.com/lbryio/ozzo-validation"
 	"github.com/stretchr/testify/assert"
 )
 
