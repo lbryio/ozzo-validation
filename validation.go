@@ -29,6 +29,9 @@ type (
 	RuleFunc func(value interface{}) error
 )
 
+// ErrorTagFunc is a function that can be used to override default error field name creation
+var ErrorTagFunc *(func (str string) string)
+
 var (
 	// ErrorTag is the struct tag name used to customize the error field name for a struct field.
 	ErrorTag = "json"
